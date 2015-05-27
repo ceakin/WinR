@@ -11,7 +11,7 @@ def createReg():
 	callName = raw_input("Enter the name you want to call this program with > " + '\n')
 	containPath = os.path.dirname(exePath)
 
-    #edit input strings
+        #edit input strings
 	editCallName = "[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\\" + callName + ".exe]"
 	editExePath = "@=" + '"' + exePath + '"'
 	editContainPath = '"Path"=' + '"' + containPath + '"'
