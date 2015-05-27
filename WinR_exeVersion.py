@@ -1,3 +1,4 @@
+# WinR exe script. To be used for compile into .exe only
 import os
 
 def createReg():
